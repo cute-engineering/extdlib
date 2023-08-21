@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-uefi",
+    "provides": [
+        "embed-platform"
+    ],
+    "enableIf": {
+        "sys": ["uefi"]
+    },
+    "description": "brutal embed for UEFI platform"
+}

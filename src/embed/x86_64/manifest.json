@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-arch-x86",
+    "provides": [
+        "embed-arch"
+    ],
+    "enableIf": {
+        "arch": ["x86_64"]
+    },
+    "description": "brutal embed window access abstracted for SDL"
+}

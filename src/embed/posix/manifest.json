@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-posix",
+    "provides": [
+        "embed-platform"
+    ],
+    "enableIf": {
+        "sys": ["linux"]
+    },
+    "description": "brutal embed for POSIX platform"
+}

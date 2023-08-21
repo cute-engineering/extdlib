@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-arch-arm64",
+    "provides": [
+        "embed-arch"
+    ],
+    "enableIf": {
+        "arch": ["arm64"]
+    },
+    "description": "brutal embed for barebone arm64 development"
+}

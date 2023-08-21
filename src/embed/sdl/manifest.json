@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-window-sdl",
+    "provides": [
+        "embed-window"
+    ],
+    "requires": [
+        "sdl2"
+    ],
+
+    "description": "brutal embed window access abstracted for SDL"
+}

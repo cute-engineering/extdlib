@@ -1,0 +1,12 @@
+-std=gnu2x
+-D__linux__
+-Wall
+-Wextra
+-Werror
+-Wnewline-eof
+-Wignored-attributes
+-Wunknown-attributes
+-Wimplicit-fallthrough
+-Isrc/
+-Ithirdparty
+-I/usr/include/SDL2

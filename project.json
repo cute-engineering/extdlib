@@ -1,0 +1,7 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.project.v1",
+    "type": "project",
+    "id": "brutal-org/brutal-lib-cutekit",
+    "description": "ported brutal library for using it through cutekit",
+    "extern": {}
+}

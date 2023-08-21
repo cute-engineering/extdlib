@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "embed-arch-riscv",
+    "provides": [
+        "embed-arch"
+    ],
+    "enableIf": {
+        "arch": ["riscv64"]
+    },
+    "description": "brutal embed for riscv processors"
+}
