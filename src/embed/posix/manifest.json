@@ -3,7 +3,7 @@
     "type": "lib",
     "id": "embed-posix",
     "provides": [
-        "embed-platform"
+        "extd-embed-platform"
     ],
     "enableIf": {
         "sys": ["linux"]

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal/base.h>
+#include <extdlib/base.h>
 
 #define SYSTEM_SDL
 #if defined(SYSTEM_SDL)

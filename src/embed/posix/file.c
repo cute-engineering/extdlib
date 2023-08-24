@@ -1,6 +1,6 @@
-#include <brutal/alloc.h>
-#include <brutal/debug.h>
-#include <brutal/text/utf8.h>
+#include <extdlib/alloc.h>
+#include <extdlib/debug.h>
+#include <extdlib/text/utf8.h>
 #include <embed/file.h>
 #include <embed/posix/err.h>
 #include <fcntl.h>

@@ -1,5 +1,5 @@
 #include <SDL.h>
-#include <brutal/debug.h>
+#include <extdlib/debug.h>
 #include <embed/app.h>
 #include <embed/win.h>
 

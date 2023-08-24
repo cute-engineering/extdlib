@@ -3,7 +3,7 @@
     "type": "lib",
     "id": "embed-arch-arm64",
     "provides": [
-        "embed-arch"
+        "extd-embed-arch"
     ],
     "enableIf": {
         "arch": ["arm64"]

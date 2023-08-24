@@ -3,7 +3,7 @@
     "type": "lib",
     "id": "embed-arch-riscv",
     "provides": [
-        "embed-arch"
+        "extd-embed-arch"
     ],
     "enableIf": {
         "arch": ["riscv64"]

@@ -1,5 +1,5 @@
-#include <brutal/alloc/global.h>
-#include <brutal/text/utf16.h>
+#include <extdlib/alloc/global.h>
+#include <extdlib/text/utf16.h>
 #include <efi/lib.h>
 #include <embed/log.h>
 

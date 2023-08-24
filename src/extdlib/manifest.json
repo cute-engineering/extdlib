@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "extdlib",
+    "description": "extdlib core utility library",
+    "requires": [
+        "extd-embed-platform",
+        "extd-embed-arch",
+        "extd-sal"
+    ],
+    "subdirs": [
+        "ui",
+        "time",
+        "text",
+        "tests",
+        "task",
+        "sync",
+        "parse",
+        "mem",
+        "math",
+        "io",
+        "input",
+        "hash",
+        "gfx",
+        "fibers",
+        "ds",
+        "debug",
+        "codec",
+        "cli",
+        "base",
+        "alloc"
+    ]
+}

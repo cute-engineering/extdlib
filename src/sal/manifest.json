@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "lib",
+    "id": "extd-sal",
+    "description": "extlib system abstraction layer",
+    "subdirs": [
+        "abi",
+        "boot",
+        "hw",
+        "task"
+    ]
+}

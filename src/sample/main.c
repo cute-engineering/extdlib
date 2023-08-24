@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include <brutal/io.h>
+#include <extdlib/io.h>
 
-#include <brutal/debug.h>
+#include <extdlib/debug.h>
 int main(void) 
 {
     

@@ -3,7 +3,7 @@
     "type": "lib",
     "id": "embed-uefi",
     "provides": [
-        "embed-platform"
+        "extd-embed-platform"
     ],
     "enableIf": {
         "sys": ["uefi"]

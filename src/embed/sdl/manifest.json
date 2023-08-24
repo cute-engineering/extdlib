@@ -3,7 +3,7 @@
     "type": "lib",
     "id": "embed-window-sdl",
     "provides": [
-        "embed-window"
+        "extd-embed-window"
     ],
     "requires": [
         "sdl2"

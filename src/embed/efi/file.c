@@ -1,6 +1,6 @@
-#include <brutal/alloc.h>
-#include <brutal/debug/assert.h>
-#include <brutal/text/utf16.h>
+#include <extdlib/alloc.h>
+#include <extdlib/debug/assert.h>
+#include <extdlib/text/utf16.h>
 #include <efi/lib.h>
 #include <efi/protos.h>
 #include <embed/file.h>

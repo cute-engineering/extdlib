@@ -1,4 +1,4 @@
-#include <brutal/debug.h>
+#include <extdlib/debug.h>
 #include <embed/chan.h>
 #include <embed/posix/err.h>
 #include <unistd.h>

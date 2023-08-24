@@ -1,7 +1,7 @@
 
-# Brutal core library 
+# Extended C library utility 
 
-The brutal core library is made with care and is meant to simplify and improve C development.
+The extdc core library is made with care and is meant to simplify and improve C development.
 It's meant to be easily portable to new architecture and os.
 It was battle tested in the brutal-os, UEFI, barebone x86, risc-v, linux...
 
