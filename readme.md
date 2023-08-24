@@ -1,4 +1,5 @@
 
+![banner](meta/res/banner.png)
 # Extended C library utility 
 
 The extdc core library is made with care and is meant to simplify and improve C development.
