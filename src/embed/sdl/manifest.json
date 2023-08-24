@@ -6,7 +6,7 @@
         "extd-embed-window"
     ],
     "requires": [
-        "sdl2"
+        "extd-sdl2"
     ],
 
     "description": "brutal embed window access abstracted for SDL"

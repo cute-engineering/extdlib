@@ -85,3 +85,6 @@ void *fiber_await(Fiber *fiber);
 Fiber *fiber_self(void);
 
 Tick fiber_deadline(void);
+
+#define fiber_init_current() \
+    fiber_start(nullptr, nullptr)

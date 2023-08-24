@@ -5,6 +5,7 @@
     "description": "extdlib core utility library",
     "requires": [
         "extd-embed-platform",
+        "extd-embed-window",
         "extd-embed-arch",
         "extd-sal"
     ],

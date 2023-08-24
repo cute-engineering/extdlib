@@ -1,0 +1,7 @@
+{
+    "$schema": "https://schemas.cute.engineering/stable/cutekit.manifest.component.v1",
+    "type": "exe",
+    "id": "ui-about",
+    "description": "A simple User interface about application",
+    "requires": ["extdlib"]
+}
