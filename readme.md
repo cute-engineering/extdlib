@@ -6,6 +6,13 @@ The extdc core library is made with care and is meant to simplify and improve C 
 It's meant to be easily portable to new architecture and os.
 It was battle tested in the brutal-os, UEFI, barebone x86, risc-v, linux...
 
+## Origin 
+
+The extdc library was initially a utility library built for the [Brutal operating system project](github.com/brutal-org/brutal), 
+we have decided to extract the library to make it usable for other C project. 
+
+Because the library was exported from Brutal, we don't see the original contributors, I wanted to mention that @sleepy-monax did the majority 
+of the code.
 
 ## Demo of its feature: 
 
