@@ -5,51 +5,34 @@
     "props": {
         "arch": "x86_64",
         "toolchain": "clang",
-        "sys": [
-            "@uname",
-            "sysname"
-        ],
+        "sys": "{shell.uname().sysname}",
         "abi": "unknown",
         "freestanding": false,
         "host": true
     },
     "tools": {
         "cc": {
-            "cmd": [
-                "@latest",
-                "clang"
-            ],
+            "cmd": "{shell.latest('clang')}",
             "args": [
             ]
         },
         "cxx": {
-            "cmd": [
-                "@latest",
-                "clang++"
-            ],
+            "cmd": "{shell.latest('clang++')}",
             "args": [
             ]
         },
         "ld": {
-            "cmd": [
-                "@latest",
-                "clang++"
-            ],
+            "cmd": "{shell.latest('clang++')}",
             "args": []
         },
         "ar": {
-            "cmd": [
-                "@latest",
-                "llvm-ar"
-            ],
+            "cmd": "{shell.latest('llvm-ar')}",
             "args": [
                 "rcs"
             ]
         },
         "as": {
-            "cmd": 
-                "nasm"
-            ,
+            "cmd": "nasm",
             "args": [
                 "-f",
                 "elf64"

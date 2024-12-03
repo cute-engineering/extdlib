@@ -3,5 +3,12 @@
     "type": "project",
     "id": "cute-engineering/extdlib",
     "description": "A powerful C utility library meant to simplify and improve developer experience",
-    "extern": {}
+    "extern": {
+        "sdl2": {
+            "description": "A cross-platform development library designed to provide low level access to hardware",
+            "names": [
+                "sdl2"
+            ]
+        }
+    }
 }
